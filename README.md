@@ -78,12 +78,11 @@ By assuming scenario/costs for baseline(traditional) models and predictive model
    - Probability of Failure: 60%
    - Probability of No Failure: 40%
 
-## 🚀 Conclusion
+## Conclusion
 
 The predictive maintenance model helps forecast failures at an early stage, enabling companies to:
-- 📅 **Optimize maintenance schedules** to prevent machine failures.
-- ⏱️ **Reduce unplanned downtime** by addressing maintenance proactively.
-- 💡 **Enhance operational efficiency** by monitoring critical machines.
+-  **Optimize maintenance schedules** to prevent machine failures.
+- **Reduce unplanned downtime** by addressing maintenance proactively.
+- **Enhance operational efficiency** by monitoring critical machines.
 
-## 🗂️ Repository Structure
 
