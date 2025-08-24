@@ -1,14 +1,14 @@
-# 🔧 Predictive Maintenance for Industrial Equipment
+#  Predictive Maintenance for Industrial Equipment
 
-## 📄 Project Overview
+## Project Overview
 
 This project aims to build a **predictive maintenance system** for industrial machinery. By analyzing key factors that contribute to equipment failures, this model helps forecast potential failures and provides actionable insights to **optimize maintenance schedules**, thereby reducing downtime and improving operational efficiency.
 
-## 🎯 Objectives
+## Objectives
 
-- 🔍 **Understand** the factors contributing to equipment failure.
-- 🤖 **Build** a predictive model to forecast machine failures.
-- 💡 **Provide insights** to optimize maintenance schedules and minimize downtime.
+-  **Understand** the factors contributing to equipment failure.
+- **Build** a predictive model to forecast machine failures.
+- **Provide insights** to optimize maintenance schedules and minimize downtime.
 
 ## 📊 Dataset Description
 
@@ -25,7 +25,7 @@ The dataset consists of operational and environmental data from industrial machi
 | **Maintenance History**| Binary indicator (Yes/No) if maintenance was performed.       |
 | **Failure**            | Binary indicator (Yes/No) if the machine has failed.          |
 
-## 🛠️ Data Processing
+##  Data Processing
 
 During preprocessing, the following steps were performed:
 
@@ -35,7 +35,7 @@ During preprocessing, the following steps were performed:
    - Created cumulative vibration and operational hours until failure.
 3. **Label Encoding**: Converted categorical features like `Maintenance History` and `Failure` to numerical values.
 
-## 📈 Exploratory Data Analysis (EDA)
+##  Exploratory Data Analysis (EDA)
 
 Exploratory data analysis was performed to gain insights into the dataset:
 - **Histograms**: For understanding the distribution of numerical features.
@@ -44,7 +44,7 @@ Exploratory data analysis was performed to gain insights into the dataset:
   
 *(Visualizations can be found in the project notebooks.)*
 
-## 🧠 Machine Learning Models
+##  Machine Learning Models
 
 Several machine learning models were tested to predict failures:
 
@@ -58,7 +58,13 @@ Several machine learning models were tested to predict failures:
 
 **K-Nearest Neighbors (KNN)** achieved the best performance and was selected as the final model.
 
-## 🧾 Prediction Results
+## Business and Stakeholder insights 
+This part analyses which machine signals which have high chances of breakdown and are most critical to monitor.
+
+## Cost saving scenario
+By assuming scenario/costs for baseline(traditional) models and predictive model, it shows how predictive maintenance can help save costs
+
+## Prediction Results
 
 - **Scenario 1**:  
    - Predicted Class: **No Failure**
